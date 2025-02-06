@@ -10,7 +10,6 @@ import { urlFor } from "@/sanity/lib/image";
 import Link from "next/link";
 import { allfoodQuery } from "@/sanity/lib/queries";
 import { ImSpoonKnife } from "react-icons/im";
-import product from "@/sanity/schemaTypes/product";
 
 const ExploreProducts = () => {
   const [allProducts, setAllProducts] = useState<Product[]>([]);

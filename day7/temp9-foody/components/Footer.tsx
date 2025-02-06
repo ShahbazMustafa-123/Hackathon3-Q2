@@ -12,26 +12,7 @@ import { threeProductsQuery } from "@/sanity/lib/queries";
 import Image from "next/image";
 import { urlFor } from "@/sanity/lib/image";
 
-const posts = [
-  {
-    id: 1,
-    title: "Is fast food good for your body?",
-    date: "February 28, 2022",
-    image: "fastfood1.jpg",
-  },
-  {
-    id: 2,
-    title: "Change your food habit with organic food",
-    date: "February 28, 2022",
-    image: "fastfood2.jpg",
-  },
-  {
-    id: 3,
-    title: "Do you like fast food for your life?",
-    date: "February 28, 2022",
-    image: "fastfood3.jpg",
-  },
-];
+
 
 const Footer = () => {
 

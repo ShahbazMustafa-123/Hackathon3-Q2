@@ -63,7 +63,7 @@ export default function Main() {
 
               {/* Tagline */}
               <p className={`text-orange-400 font-pacifico  italic text-lg font-semibold mb-2`}>
-                It's Quick & Amusing!
+                Its Quick & Amusing!
               </p>
 
               {/* Title */}
